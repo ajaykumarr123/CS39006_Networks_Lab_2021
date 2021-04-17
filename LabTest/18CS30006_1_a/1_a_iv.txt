@@ -1,0 +1,14 @@
+No.	Time	Source	Destination	Protocol	Length	Host	Source Port	Destination Port	Info
+647	4.131621	127.0.0.1	127.0.0.1	SMTP	92	 45792	           25	             C: ehlo smtp.iitkgp.ac.in
+659	4.175011	127.0.0.1	127.0.0.1	SMTP	108	 45792	           25		     C: mail FROM:<alice@iitkgp.ac.in> size=67
+661	4.175438	127.0.0.1	127.0.0.1	SMTP	92	 45792	           25		     C: rcpt TO:<bob@ucla.edu>
+663	4.175704	127.0.0.1	127.0.0.1	SMTP	74	 45792	           25		     C: data
+667	4.176333	127.0.0.1	127.0.0.1	SMTP	74	 45792	           25		     C: QUIT
+978	6.179351	127.0.0.1	127.0.0.1	SMTP	88	 45794	           25		     C: ehlo smtp.ucla.edu
+998	6.222486	127.0.0.1	127.0.0.1	SMTP	102	 45794		   25		     C: mail FROM:<bob@ucla.edu> size=64
+1000	6.222909	127.0.0.1	127.0.0.1	SMTP	98	 45794		   25		     C: rcpt TO:<alice@iitkgp.ac.in>
+1002	6.223536	127.0.0.1	127.0.0.1	SMTP	74	 45794	   	   25		     C: data
+1007	6.224921	127.0.0.1	127.0.0.1	SMTP	74	 45794	           25		     C: QUIT
+
+
+I applied "smtp.req" filter then saved that displayed rows as CSV file and then copy pasted here.

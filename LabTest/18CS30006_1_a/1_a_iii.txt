@@ -1,0 +1,3 @@
+total number of packets corresponding to smtp =28
+
+I applied smtp filter then checked total rows displayed using wireshark
